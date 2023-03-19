@@ -1,0 +1,134 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(65, 65, 65);
+    background-color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+}
+
+.tic-tac-toe-board {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+header {
+    font-weight: 800;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #14bdac;
+}
+
+h1 {
+    margin: 0px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.score-panel {
+    margin-top: 20px;
+}
+
+.score-header {
+    text-align: center;
+    margin: auto;
+}
+
+.players-score {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    width: 9.5rem;
+    height: 5rem;
+    background-color: #558190;
+    font-size: 2.5em;
+    color: black;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5rem;
+}
+
+.X-score {
+    border-radius: 15px 5px 5px 15px;
+    margin-right: 5px;
+    background-color: #a8584b;
+}
+
+.O-score {
+    border-radius: 5px 15px 15px 5px;
+    margin-left: 5px;
+    background-color: #558190;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 0 1rem 0;
+}
+
+.cell {
+    width: 7rem;
+    height: 7rem;
+    border: 6px solid rgb(44, 43, 43);
+    margin: -6px 0 0 -6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 7rem;
+    font-size: 6rem;
+    cursor: pointer;
+    
+}
+
+.status {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.restart {
+    all: unset;
+    border-radius: 15px;
+    background-color: #14bdac;
+    cursor: pointer;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.rounded-1 {
+    border-radius: 20px 0px 0px 0px;
+}
+
+.rounded-2 {
+    border-radius: 0px 20px 0px 0px;
+}
+
+.rounded-3 {
+    border-radius: 0px 0px 0px 20px;
+}
+
+.rounded-4 {
+    border-radius: 0px 0px 20px 0px;
+}
+
+.X-player {
+    color: #a8584b;
+}
+
+.O-player {
+    color: #558190;
+}
