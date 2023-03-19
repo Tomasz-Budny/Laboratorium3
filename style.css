@@ -109,6 +109,11 @@ hr {
     color: black;
 }
 
+.control-panel a {
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
 .rounded-1 {
     border-radius: 20px 0px 0px 0px;
 }
