@@ -106,6 +106,7 @@ function handleBotChange() {
             console.log(randIndex);
             console.log(gameState);
             currentPlayer = 'O';
+            cell.classList.add(`${currentPlayer}-player`);
             handleResultValidation();
             currentPlayer = 'X';
             break;
